@@ -8,6 +8,8 @@ import OrderTab from '../OrderTab/OrderTab';
 import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
+//  TODO Pagination here on this page
+
 const Order = () => {
     const categories = ['salad', 'pizza', 'soup', 'dessert', 'drinks']
     const { category } = useParams();
